@@ -1,0 +1,45 @@
+header{
+  text-align: center;
+}
+h1{
+  color: white;
+}
+main{
+  width: 100%;
+  height: 1000px;
+  overflow: auto;
+  border: solid 1px #fdff74;
+  background-image: url("coffee.jpg");
+  text-align: center;
+}
+section{
+  position: relative;
+  height: 100%;
+  width: 30%;
+  float: left;
+}
+div{
+  text-align: center;
+  height: auto;
+  width: auto;
+  margin: 10px 5px 0px;
+}
+article{
+  height: auto;
+  width: auto;
+  padding: 50px;
+  display: none;
+  position: relative;
+  margin: 0px 5px;
+}
+div, article{
+  background-color: #f8faaf;
+  border-radius: 10px;
+  padding: 5px;
+  border: solid 2px #404101;
+
+}
+img{
+  height: 100px;
+  width: 100px;
+}
